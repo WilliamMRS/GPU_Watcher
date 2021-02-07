@@ -19,6 +19,8 @@
     6. ??
 
     7. profit
+
+    8. eksempel
   
  */
 const puppeteer = require('puppeteer'); //API for datamining
