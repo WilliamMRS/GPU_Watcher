@@ -1,6 +1,9 @@
 const puppeteer = require('puppeteer'); //API for datamining
 const colors = require('colors'); // coloring console
 
+// TODO:
+// EMAIL ALERTS!
+
 initWatcher = async (url, gpuToWatch)=>{
     let browser = await puppeteer.launch();
     console.log('puppeteer watchdog live...');
