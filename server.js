@@ -55,7 +55,7 @@ setInterval(async ()=>{
 }, 30000); // Time interval in ms (don't go too fast, or komplett may block ur ip for spam)
 
 checkAvaliability = async (url, gpuToWatch)=>{
-    await page.goto(url, { waitUntil: 'networkidle2' }); console.log(`Watching ${gpuToWatch}'s... at ${url}`);
+    await page.goto(url, { waitUntil: 'networkidle2' });
     let getAvailability = async() => {
         return await page.evaluate(async () => {
             return await new Promise(resolve => {
