@@ -56,7 +56,7 @@ setInterval(async ()=>{
     //            "3090");
 
     printLastChecked();
-}, 30000); // Time interval in ms (don't go too fast, or komplett may block ur ip for spam)
+}, 60000); // Time interval in ms (don't go too fast, or komplett may block ur ip for spam)
 
 checkAvaliability = async (url, gpuToWatch)=>{
     await page.goto(url, { waitUntil: 'networkidle2' });
