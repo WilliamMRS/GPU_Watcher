@@ -28,7 +28,6 @@ const colors = require('colors'); // coloring console
 
 global.browser;
 global.page;
-global.showCards = true;
 
 initPuppeteer = async () => {
     browser = await puppeteer.launch();
