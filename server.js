@@ -37,9 +37,10 @@ initPuppeteer = async () => {
 
 setTimeout(async ()=>{
     await initPuppeteer();
-    await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060%20Ti',"3060 ti");
-    await checkAvaliability(`https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203070&hits=48`,"3070");
-    await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203080&hits=48',"3080");
+    await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7AMD&cnet=Grafikkprosessor_A00247%20%20%C2%A7AMD%20Radeon%20RX%206800%20XT&cnet=Grafikkprosessor_A00247%20%20%C2%A7AMD%20Radeon%20RX%206900&cnet=Grafikkprosessor_A00247%20%20%C2%A7AMD%20Radeon%20RX%206800&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060%20Ti&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203070&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203080&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203090&hits=120', "All new GPU's")
+    //await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060%20Ti',"3060 ti");
+    //await checkAvaliability(`https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203070&hits=48`,"3070");
+    //await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203080&hits=48',"3080");
     //checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203090&hits=48',
     //            "3090");
 
@@ -47,9 +48,10 @@ setTimeout(async ()=>{
 }, 10); // Time interval in ms (don't go too fast, or komplett may block ur ip for spam)
 
 setInterval(async ()=>{
-    await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060%20Ti',"3060 ti");
-    await checkAvaliability(`https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203070&hits=48`,"3070");
-    await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203080&hits=48',"3080");
+    await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7AMD&cnet=Grafikkprosessor_A00247%20%20%C2%A7AMD%20Radeon%20RX%206800%20XT&cnet=Grafikkprosessor_A00247%20%20%C2%A7AMD%20Radeon%20RX%206900&cnet=Grafikkprosessor_A00247%20%20%C2%A7AMD%20Radeon%20RX%206800&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060%20Ti&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203070&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203080&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203090&hits=120', "All new GPU's")
+    //await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203060%20Ti',"3060 ti");
+    //await checkAvaliability(`https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203070&hits=48`,"3070");
+    //await checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203080&hits=48',"3080");
     //checkAvaliability('https://www.komplett.no/category/10412/datautstyr/pc-komponenter/skjermkort?nlevel=10000%C2%A728003%C2%A710412&cnet=Grafikkprosessorfabrikant_A03616%20%20%C2%A7NVIDIA&cnet=Grafikkprosessor_A00247%20%20%C2%A7NVIDIA%20GeForce%20RTX%203090&hits=48',
     //            "3090");
 
@@ -63,7 +65,7 @@ checkAvaliability = async (url, gpuToWatch)=>{
             return await new Promise(resolve => {
                 gpulist = document.getElementsByClassName("product-list flexbox-list responsive-form list")[0]
                 let info = "";
-                for (let i = 0; i<gpulist.length; i++){
+                for (let i = 0; i<gpulist.length*2; i++){
                     try{
                         let content = gpulist.childNodes[i].getElementsByClassName("text-content")
                         try{
